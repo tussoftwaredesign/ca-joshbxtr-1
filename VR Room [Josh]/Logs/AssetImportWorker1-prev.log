@@ -15,7 +15,7 @@ C:/Users/jbax8/Documents/GitHub/ca-joshbxtr-1/VR Room [Josh]
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50020
+65258
 Successfully changed project path to: C:/Users/jbax8/Documents/GitHub/ca-joshbxtr-1/VR Room [Josh]
 C:/Users/jbax8/Documents/GitHub/ca-joshbxtr-1/VR Room [Josh]
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/jbax8/Documents/GitHub/ca-joshbxtr-1/VR Room [Josh]
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 462.14 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 17.48 ms.
+Refreshing native plugins compatible for Editor in 347.56 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 6.90 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/jbax8/Documents/GitHub/ca-joshbxtr-1/VR Room [Josh]/Assets
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025756 seconds.
+Registered in 0.021256 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 323.81 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
+Refreshing native plugins compatible for Editor in 301.89 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.422 seconds
+- Completed reload, in  2.195 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2423ms)
-		BeginReloadAssembly (445ms)
+	ReloadAssembly (2197ms)
+		BeginReloadAssembly (346ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1566ms)
-			LoadAssemblies (431ms)
+		EndReloadAssembly (1447ms)
+			LoadAssemblies (334ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (326ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (984ms)
+			RebuildScriptCaches (167ms)
+			SetupLoadedEditorAssemblies (807ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (324ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (156ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (303ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.058601 seconds.
+Registered in 0.053244 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jbax8\Documents\GitHub\ca-joshbxtr-1\VR Room [Josh]\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jbax8\Documents\GitHub\ca-joshbxtr-1\VR Room [Josh]\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 343.52 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 363.62 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\jbax8\Documents\GitHub\ca-joshbxtr-1\VR Room [Josh]\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
@@ -125,43 +125,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  5.385 seconds
+- Completed reload, in  4.553 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5388ms)
-		BeginReloadAssembly (445ms)
+	ReloadAssembly (4555ms)
+		BeginReloadAssembly (438ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
 			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (4548ms)
-			LoadAssemblies (671ms)
+		EndReloadAssembly (3797ms)
+			LoadAssemblies (642ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1021ms)
+			SetupTypeCache (891ms)
 			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (238ms)
-			SetupLoadedEditorAssemblies (2561ms)
+			RebuildScriptCaches (202ms)
+			SetupLoadedEditorAssemblies (2034ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (344ms)
-				BeforeProcessingInitializeOnLoad (363ms)
-				ProcessInitializeOnLoadAttributes (1473ms)
-				ProcessInitializeOnLoadMethodAttributes (337ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				RefreshPlugins (364ms)
+				BeforeProcessingInitializeOnLoad (297ms)
+				ProcessInitializeOnLoadAttributes (1043ms)
+				ProcessInitializeOnLoadMethodAttributes (286ms)
+				AfterProcessingInitializeOnLoad (28ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 4.34 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
 Unloading 5938 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (0.7 MB). Loaded Objects now: 6374.
-Memory consumption went from 228.0 MB to 227.3 MB.
-Total: 15.470600 ms (FindLiveObjects: 1.350400 ms CreateObjectMapping: 1.018700 ms MarkObjects: 11.466000 ms  DeleteObjects: 1.630700 ms)
+Unloading 53 unused Assets / (347.5 KB). Loaded Objects now: 6380.
+Memory consumption went from 237.8 MB to 237.4 MB.
+Total: 20.836100 ms (FindLiveObjects: 2.478700 ms CreateObjectMapping: 2.445400 ms MarkObjects: 10.798700 ms  DeleteObjects: 5.108600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,217 +175,860 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 362269.753578 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lightsource_Candle_C.fbx
-  artifactKey: Guid(6f447a697b2acc342a15225edaac39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lightsource_Candle_C.fbx using Guid(6f447a697b2acc342a15225edaac39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa6dd2834a392fe9856781fac2b7673') in 1.702715 seconds 
+  Time since last request: 439357.009836 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f506392a854c66c40890dae35512a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f506392a854c66c40890dae35512a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf1a2e268f56c4ce5537ff1df63d50c') in 0.203533 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lamp_Floor_1.fbx
-  artifactKey: Guid(8c04293deceb46b46b007663ff437a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lamp_Floor_1.fbx using Guid(8c04293deceb46b46b007663ff437a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3d315c77302511ec48e5d3d46ad8af') in 0.083025 seconds 
+  Time since last request: 110.290163 seconds.
+  path: Assets/Halloween/Hand Painted Grass  Texture/Material/Gtass_mobile.mat
+  artifactKey: Guid(2ed5ac5bee18ffe4396d871af249a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Grass  Texture/Material/Gtass_mobile.mat using Guid(2ed5ac5bee18ffe4396d871af249a6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a5008bdc75a9758e6cf1e497fa4b02') in 0.863162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/_Course Library/Source Files/Models/Hook_B_1.fbx
-  artifactKey: Guid(16530742830f0974bb73f757b2b18798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Hook_B_1.fbx using Guid(16530742830f0974bb73f757b2b18798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e7ebeb08bedfa217ed30e7afb6e81c') in 0.100691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lightsource_Candle.fbx
-  artifactKey: Guid(f9f87b1afb8abef438118d39b7c8263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lightsource_Candle.fbx using Guid(f9f87b1afb8abef438118d39b7c8263b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88ceb9d94ee5a2e3cb4310e508dac17') in 0.131864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lamp_Table1_B.fbx
-  artifactKey: Guid(e83de28169a578f4e9560b9ba5808f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lamp_Table1_B.fbx using Guid(e83de28169a578f4e9560b9ba5808f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f5c3ed9267831d5d49a1d86c50e3f7') in 0.199731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/_Course Library/Source Files/Models/Hat_Witch.fbx
-  artifactKey: Guid(203f50d46d6e5ac42af7ac45c9b4987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Hat_Witch.fbx using Guid(203f50d46d6e5ac42af7ac45c9b4987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fbbe577db617605b33475a8fed5ae4') in 0.085278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lamp_Wall_2.fbx
-  artifactKey: Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lamp_Wall_2.fbx using Guid(15cd8819c9f72a845acf8ccb7487b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb74dc2c14b0bc1bda83055f25ac932c') in 0.134178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/_Course Library/Source Files/Models/Knob_1.fbx
-  artifactKey: Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Knob_1.fbx using Guid(87163ac1ec6d0c44eb1bec5a7e23bc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ae877a5c0ff5be1eeafb9d715a2d5a') in 0.093243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lightsource_Lantern.fbx
-  artifactKey: Guid(e83a7a91e88012447a2a89cc0a3bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lightsource_Lantern.fbx using Guid(e83a7a91e88012447a2a89cc0a3bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cccaf616c9ba5afc598298786462fc6') in 0.153132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/_Course Library/Source Files/Models/Launcher_Dart.fbx
-  artifactKey: Guid(2acafd95d729d5042b127656b965d6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Launcher_Dart.fbx using Guid(2acafd95d729d5042b127656b965d6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5536153e42d0ccabb08a04c5d00454') in 0.083919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/_Course Library/Source Files/Models/Joystick_1.prefab
-  artifactKey: Guid(e2a3594892394ef438858508107bbcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Joystick_1.prefab using Guid(e2a3594892394ef438858508107bbcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4339e2497c053252827b6f1ca9c9420') in 0.048920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/_Course Library/Source Files/Models/Launcher_DartGun.fbx
-  artifactKey: Guid(49344d184707a6d488a27aa72f9df271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Launcher_DartGun.fbx using Guid(49344d184707a6d488a27aa72f9df271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7b018148f6c5f7a74f51fca7d2b3bc') in 0.133924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/_Course Library/Source Files/Models/Lamp_Floor_2.fbx
-  artifactKey: Guid(96ec14d4c6beb574ebb19ec5ad88778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Lamp_Floor_2.fbx using Guid(96ec14d4c6beb574ebb19ec5ad88778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0e6ca6d2e06cc58de681ed4ef5fe83') in 0.080263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/_Course Library/Source Files/Models/Mat_A_2.fbx
-  artifactKey: Guid(f0c4fc1a1cb6be0448079480c9b9c38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Mat_A_2.fbx using Guid(f0c4fc1a1cb6be0448079480c9b9c38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129bc9e075317b7691369068b77603f2') in 0.084736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.014012 seconds.
-  path: Assets/Halloween/Models/FBX format/altarWood.fbx
-  artifactKey: Guid(08ae90ca083ad1d4ab13d21f89bff513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/altarWood.fbx using Guid(08ae90ca083ad1d4ab13d21f89bff513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5774dbb3524e8be5bdf55419bc876332') in 0.129455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Halloween/Models/FBX format/crossWood.fbx
-  artifactKey: Guid(5bbdf4275da44134ebc887be861a5ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/crossWood.fbx using Guid(5bbdf4275da44134ebc887be861a5ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15856b7a4754075a0c41ed66f2e5c08') in 0.139154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Halloween/Models/FBX format/cryptSmallDoorway.fbx
-  artifactKey: Guid(2572a6e3e4d019246bf8f81496ce17ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/cryptSmallDoorway.fbx using Guid(2572a6e3e4d019246bf8f81496ce17ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd888462019220e6a2a0c44acd521a550') in 0.098795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Halloween/Models/FBX format/characterSkeleton.fbx
-  artifactKey: Guid(adbf26a302b77564aac12948f2e3b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/characterSkeleton.fbx using Guid(adbf26a302b77564aac12948f2e3b76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6bb5b96f1c736539ce433f26dfce51') in 0.319350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Halloween/Models/FBX format/coffin.fbx
-  artifactKey: Guid(96dbaee7c501dd94e9fc6e41887083f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/coffin.fbx using Guid(96dbaee7c501dd94e9fc6e41887083f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ddcbb394caef6fe715449c9e657548') in 0.162158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Halloween/Models/FBX format/characterVampire.fbx
-  artifactKey: Guid(49c8842c9c55aae4a9a39b2280f3507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/characterVampire.fbx using Guid(49c8842c9c55aae4a9a39b2280f3507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da25885cb9c0cae191e101f9b0b4f06') in 0.514409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Halloween/Models/FBX format/characterGhost.fbx
-  artifactKey: Guid(cefa722a57c87e244bca3d78136de2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/characterGhost.fbx using Guid(cefa722a57c87e244bca3d78136de2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac2ba2340f5269ee87876bcdf33e644') in 0.217425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Halloween/Models/FBX format/coffinOld.fbx
-  artifactKey: Guid(ca690133a07f9c243ae0f6f7564f53dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/coffinOld.fbx using Guid(ca690133a07f9c243ae0f6f7564f53dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86321fca55277ff3a47598d82a98ce36') in 0.109118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Halloween/Models/FBX format/crossColumn.fbx
-  artifactKey: Guid(417e1f01846338743b4dd7bd0815d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/crossColumn.fbx using Guid(417e1f01846338743b4dd7bd0815d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34e94733d86110b41271dd3fbb44ed8') in 0.145507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Halloween/Models/FBX format/cryptSmall.fbx
-  artifactKey: Guid(c07eeea18a4433b428df654995d20826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/cryptSmall.fbx using Guid(c07eeea18a4433b428df654995d20826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1825de11fec72e2d4ae1f17aa31ad919') in 0.164080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Halloween/Models/FBX format/benchDamaged.fbx
-  artifactKey: Guid(e8d982039abeef6458fd33608415f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/benchDamaged.fbx using Guid(e8d982039abeef6458fd33608415f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa96d3d2d6ebc6f348bb27ee729866e') in 0.153864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Halloween/Models/FBX format/columnLarge.fbx
-  artifactKey: Guid(55398c3e4e1e6944d9e6dbe3692bf458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/columnLarge.fbx using Guid(55398c3e4e1e6944d9e6dbe3692bf458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291eaca7bbf93742a6327ca303723284') in 0.136530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Halloween/Models/FBX format/borderPillar.fbx
-  artifactKey: Guid(b53426321ea0deb4480db5d43c16aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/borderPillar.fbx using Guid(b53426321ea0deb4480db5d43c16aef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ea5ca1a1c7038066472788c89db462') in 0.095654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.505254 seconds.
-  path: Assets/Halloween/Models/FBX format/cryptSmallRoof.fbx
-  artifactKey: Guid(f3ad6fe5ad1be554483f1f75f1a99a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/cryptSmallRoof.fbx using Guid(f3ad6fe5ad1be554483f1f75f1a99a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77af4f756c1ecc9fd0ca093c9d975dc') in 0.131283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Halloween/Models/FBX format/detailChalice.fbx
-  artifactKey: Guid(a1b517f46f784ae45a5d38544c56ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/detailChalice.fbx using Guid(a1b517f46f784ae45a5d38544c56ba14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837cf0029f0dba75cf5206c34bfbacb3') in 0.097475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Halloween/Models/FBX format/detailBowl.fbx
-  artifactKey: Guid(f55020d77917fce4a8e70c7cd80a78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/detailBowl.fbx using Guid(f55020d77917fce4a8e70c7cd80a78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea9a65f115645e99f6b24a5a868105f') in 0.085969 seconds 
+  Time since last request: 1.654907 seconds.
+  path: Assets/Halloween/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png
+  artifactKey: Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png using Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12304c601dbe073915f1e5cf8e49f6fb') in 0.079111 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000147 seconds.
-  path: Assets/Halloween/Models/FBX format/gravestoneBevel.fbx
-  artifactKey: Guid(731463ae719d53e46bfbeb417d2ea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/gravestoneBevel.fbx using Guid(731463ae719d53e46bfbeb417d2ea63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2882c2cecbad9059be046fa27ab1d32c') in 0.110299 seconds 
+  path: Assets/Halloween/Hand Painted Grass  Texture/Texture/Grass_Normal.png
+  artifactKey: Guid(abdf0ea32c5d9a9459d3e4ead7c70937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Grass  Texture/Texture/Grass_Normal.png using Guid(abdf0ea32c5d9a9459d3e4ead7c70937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b68e92f7414341589bf9b5cc366e40') in 0.082877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.454721 seconds.
+  path: Assets/Challenges/02_3DPainting/Materials/TeleportationAnchor.mat
+  artifactKey: Guid(5beb6a4b201b54a9daec765d50734252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Materials/TeleportationAnchor.mat using Guid(5beb6a4b201b54a9daec765d50734252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ef9badf2f0d1c846768521262577e') in 0.078242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Challenges/02_3DPainting/Materials/Trail.mat
+  artifactKey: Guid(0ce30e6d3e0ceb84296f7676ec700187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Materials/Trail.mat using Guid(0ce30e6d3e0ceb84296f7676ec700187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff323d6fb54e2aebd34bcd5e389bfdb1') in 0.051636 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000127 seconds.
-  path: Assets/Halloween/Models/FBX format/fenceGate.fbx
-  artifactKey: Guid(a3d08a2d58319614bb8cbb2122fbe33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/fenceGate.fbx using Guid(a3d08a2d58319614bb8cbb2122fbe33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3aeb7f872dd64735e249c69dfbea3e') in 0.197996 seconds 
+  path: Assets/Challenges/02_3DPainting/Materials/Transparent.mat
+  artifactKey: Guid(3df5595b00276d048879f23dcddc3f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Materials/Transparent.mat using Guid(3df5595b00276d048879f23dcddc3f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0b1f180c681f7388ba44a479632b87') in 0.378148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Halloween/Models/FBX format/fence.fbx
-  artifactKey: Guid(38a08a85595fe76498bf0dc619292f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/fence.fbx using Guid(38a08a85595fe76498bf0dc619292f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f7e399a68db432ae5c354099f2c897') in 0.212752 seconds 
+  Time since last request: 0.000103 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Tree_Trunk.mat
+  artifactKey: Guid(c7de4067968824b97aec50980c444111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Tree_Trunk.mat using Guid(c7de4067968824b97aec50980c444111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0af06697d305591f68098ecf72aae44') in 0.047073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Halloween/Models/FBX format/gravestoneCrossLarge.fbx
-  artifactKey: Guid(1d9e654478156f04a9e3c88fca087e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/gravestoneCrossLarge.fbx using Guid(1d9e654478156f04a9e3c88fca087e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4e4def14ca86d90278a9f43fa84c4d') in 0.089929 seconds 
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df55e61535c57d30e4a1c7b5946489a') in 0.049410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Tree_Leaves.mat
+  artifactKey: Guid(8e1a140a925b749f2a2dae931404e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Tree_Leaves.mat using Guid(8e1a140a925b749f2a2dae931404e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04849ba6eb1b2e489e862e21a1ddeee7') in 0.041833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Challenges/02_3DPainting/Materials/Unlit.mat
+  artifactKey: Guid(fae3ce4ed00d4ed4aa7976b88c6cd658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/02_3DPainting/Materials/Unlit.mat using Guid(fae3ce4ed00d4ed4aa7976b88c6cd658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511be28d990037e22a8675df99281c78') in 0.046852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/Transparent.mat
+  artifactKey: Guid(69b788286d4f1f6438211fdf47ad2f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Solid Colors/Transparent.mat using Guid(69b788286d4f1f6438211fdf47ad2f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2117cd3b0be2422cc901746c4ffced') in 4.793337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684436ed20cc79a3692da79379085a79') in 0.116417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Challenges/01_Architecture/Materials/Glass.mat
+  artifactKey: Guid(868f107daf3fc97428e08f6e5b30dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Materials/Glass.mat using Guid(868f107daf3fc97428e08f6e5b30dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b265a9f258dc370d353c85d6c90110') in 0.049788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f216991c3847440c376c68db2818a70') in 0.084436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.976687 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/GreyDark.mat
+  artifactKey: Guid(6125db37fb54a4b15838d52b52aad792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Solid Colors/GreyDark.mat using Guid(6125db37fb54a4b15838d52b52aad792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cda483ed9eb2a24ea48fd7f4bab4345') in 0.051564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/_Course Library/Source Files/Models/Cabinet_Modern.fbx
+  artifactKey: Guid(0b265d2c8d8d67d43afcdf13a726d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Models/Cabinet_Modern.fbx using Guid(0b265d2c8d8d67d43afcdf13a726d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b7dd212a1eace54c4bd3066fd3522') in 0.223170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.910820 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/GreenDark.mat
+  artifactKey: Guid(7ecf8e2b1408644d485c82dbca49ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Solid Colors/GreenDark.mat using Guid(7ecf8e2b1408644d485c82dbca49ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee67a364ae0571cfd874b2c346eec83f') in 0.038501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.567344 seconds.
+  path: Assets/Halloween/Models/DAE format/altarWood.dae
+  artifactKey: Guid(313af9b4727dfca4e817945959d48523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/altarWood.dae using Guid(313af9b4727dfca4e817945959d48523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bb707be39de258a9c3fe1d6ffceed4') in 0.105936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Halloween/Models/DAE format/characterVampire.dae
+  artifactKey: Guid(c19edfb54d2813144a4ab2fb4d00b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/characterVampire.dae using Guid(c19edfb54d2813144a4ab2fb4d00b717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741bceb17934b70dbec104b51e02cd5b') in 0.435349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Halloween/Models/DAE format/brickWallEnd.dae
+  artifactKey: Guid(36144fb7462900545baa9a2db96d70d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/brickWallEnd.dae using Guid(36144fb7462900545baa9a2db96d70d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0572eefdec6a5e6995ac1b76e733917') in 0.097058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Halloween/Models/DAE format/candle.dae
+  artifactKey: Guid(b4bb01d08b1addd4a820addac230a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/candle.dae using Guid(b4bb01d08b1addd4a820addac230a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14037592194a8ed3613c001af54377fd') in 0.087781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Halloween/Models/DAE format/candleMultiple.dae
+  artifactKey: Guid(5d8997075e4693849a2508cf31e0af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/candleMultiple.dae using Guid(5d8997075e4693849a2508cf31e0af02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd632d1d5ae130033f76eba0b259fc62e') in 0.102995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Halloween/Models/DAE format/benchDamaged.dae
+  artifactKey: Guid(fe9043053d541d3429f38f95e37df7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/benchDamaged.dae using Guid(fe9043053d541d3429f38f95e37df7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49b7cf880cbc00aa7f7ace39fe82446') in 0.096768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Halloween/Models/DAE format/borderPillar.dae
+  artifactKey: Guid(30ec4c1be93eac1499ac1f33180b0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/borderPillar.dae using Guid(30ec4c1be93eac1499ac1f33180b0099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f66a9835da489d05e40258134d7f2') in 0.078201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Halloween/Models/DAE format/bench.dae
+  artifactKey: Guid(b3550410eb81d7b41acd8798f7b7c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/bench.dae using Guid(b3550410eb81d7b41acd8798f7b7c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf9dff66ceddd11de3a3ac7a29640b2') in 0.091134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Halloween/Models/DAE format/brickWallCurve.dae
+  artifactKey: Guid(620f32374d8af05469af602f62120a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/brickWallCurve.dae using Guid(620f32374d8af05469af602f62120a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c401ac70620ed4697c544bd87317c04') in 0.087178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.059224 seconds.
+  path: Assets/Halloween/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat
+  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f755c5319822dc8bd197a4d9bd4c24') in 0.041624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.751010 seconds.
+  path: Assets/Halloween/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat
+  artifactKey: Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass.mat using Guid(5d8af8f434f69794eabd684fb44b4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a57ecc046c1d9c44d5090127739737') in 0.143853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.135652 seconds.
+  path: Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png
+  artifactKey: Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png using Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e367db354f731377b0b099d587fa5d4') in 0.033432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Height.png
+  artifactKey: Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Height.png using Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ee1743d418581c436758f20ed399c9') in 0.033242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Normal.png
+  artifactKey: Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Normal.png using Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1758ecdbaf721e48e08ff801d3aa3d2f') in 0.041756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.407634 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_machinegun.png
+  artifactKey: Guid(981fef43994aa5649b599745d64f3892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_machinegun.png using Guid(981fef43994aa5649b599745d64f3892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b9d45ead928016b579aeb0474b1307') in 0.041944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_machinegunLauncher.png
+  artifactKey: Guid(dd9cae8d8e6c4764e8f940ecd0397d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_machinegunLauncher.png using Guid(dd9cae8d8e6c4764e8f940ecd0397d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393724d6f791a475adbeab88f20b5727') in 0.032429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/ammo_machinegunLauncher.png
+  artifactKey: Guid(fb202a95cb4b01c438299a71c2a4acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/ammo_machinegunLauncher.png using Guid(fb202a95cb4b01c438299a71c2a4acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c218befda6f1e439dbcb40c7680023f') in 0.039923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_rocket.png
+  artifactKey: Guid(ccd6f0d9250b66c48a25e01b8c3119ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_rocket.png using Guid(ccd6f0d9250b66c48a25e01b8c3119ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae099593279aeed0c68e6d948ec2aa2') in 0.048740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.729416 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_shotgun.png
+  artifactKey: Guid(4087630ef0e171e4b956bebe0eab0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_shotgun.png using Guid(4087630ef0e171e4b956bebe0eab0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbe7f38a0ba964675a54100352bac61') in 0.032161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/ammo_sniper.png
+  artifactKey: Guid(221ad372ed44d2448b0817c5cd3daf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/ammo_sniper.png using Guid(221ad372ed44d2448b0817c5cd3daf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1514fdf1e237de0b442a108f7cca8749') in 0.031344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_sniper.png
+  artifactKey: Guid(5c9977e4808bdcc44b6b66582bfefb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_sniper.png using Guid(5c9977e4808bdcc44b6b66582bfefb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f02801080e296b52d15824a56601d1') in 0.040661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.366893 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/pistol.png
+  artifactKey: Guid(50b85948cde8ee34b90a91dea7778697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/pistol.png using Guid(50b85948cde8ee34b90a91dea7778697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c1815e5f7f18145b50fdd41afe9fa9') in 0.029169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/_Course Library/Source Files/Textures/StoneWall_Texture.jpg
+  artifactKey: Guid(d5f3743f553fe1349a6203a70f7bbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Textures/StoneWall_Texture.jpg using Guid(d5f3743f553fe1349a6203a70f7bbe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108c3fd87aa2eb61c0b72bee246d12f3') in 0.049425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.180886 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/ammo_rocketModern.png
+  artifactKey: Guid(a6dd4cf31389f33459c38e855f3a1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/ammo_rocketModern.png using Guid(a6dd4cf31389f33459c38e855f3a1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ee79b928507b713cb022332b6298f1') in 0.040809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/flamethrower.png
+  artifactKey: Guid(36d0977d185bb23478edb964bda31954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/flamethrower.png using Guid(36d0977d185bb23478edb964bda31954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704d7e62326e6c43a8328879a6b8200c') in 0.040800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/_Course Library/Source Files/Textures/Icon_Gear.png
+  artifactKey: Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Textures/Icon_Gear.png using Guid(5cc05834449b82544bd1a87bc90bd81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b3ab0509bde2460485c9ace5081b64') in 0.088738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/_Course Library/Source Files/Textures/Icon_Close.png
+  artifactKey: Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Source Files/Textures/Icon_Close.png using Guid(811cf8ccf45f8c4439f6c52f9c345fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497f7905b3a814615fcbe32c1411e68b') in 0.050927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/grenadeSmoke.png
+  artifactKey: Guid(b81bf60e9138d224c96c530dd5744637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/grenadeSmoke.png using Guid(b81bf60e9138d224c96c530dd5744637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4232b09f25439ba73835d0f722962570') in 0.039722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/machinegunLauncher.png
+  artifactKey: Guid(b96d2ea75c295f34cb2759701fcc645f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/machinegunLauncher.png using Guid(b96d2ea75c295f34cb2759701fcc645f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a02704dddbd26cd0b737c624d1e1a7e') in 0.049811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/knife_sharp.png
+  artifactKey: Guid(3b8c1ada59415d74984678fa77822f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/knife_sharp.png using Guid(3b8c1ada59415d74984678fa77822f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3b9a8b8816c06285c7a2f04166f943') in 0.039028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Challenges/03_Training/Scenes/Training_Prototype_Broken/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2c4313c5149ba4704a1c73f6db34398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/03_Training/Scenes/Training_Prototype_Broken/Lightmap-0_comp_light.exr using Guid(2c4313c5149ba4704a1c73f6db34398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0341b4f77782e1775877d11a71dbc1') in 0.068266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/knifeRound_smooth.png
+  artifactKey: Guid(b82b26e24005f334f98c52d535f5de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/knifeRound_smooth.png using Guid(b82b26e24005f334f98c52d535f5de5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe92291f4aee82a14fc1c0e2d3bdfc') in 0.042895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/rocketlauncher.png
+  artifactKey: Guid(2b2d69e2d4ea16148aa074f4f25d8e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/rocketlauncher.png using Guid(2b2d69e2d4ea16148aa074f4f25d8e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b8e75a8b9ced63384767672669e6a1') in 0.029561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/grenade.png
+  artifactKey: Guid(27d0d7022bb116d43874af2e49f76486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/grenade.png using Guid(27d0d7022bb116d43874af2e49f76486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373f978ee035a78bc0c4da810b84cba4') in 0.027436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/knifeRound_sharp.png
+  artifactKey: Guid(0c6f0686f5be20146a8b432a3ba6c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/knifeRound_sharp.png using Guid(0c6f0686f5be20146a8b432a3ba6c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed90bc685f802fcf042d60bc724984ad') in 0.037979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/ammo_uzi.png
+  artifactKey: Guid(9cf986658b2d7b143b3e9c0d357fea94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/ammo_uzi.png using Guid(9cf986658b2d7b143b3e9c0d357fea94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6140dd5c367cc5fc92dc5b77c15b2d6') in 0.040756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/knifeRound_sharp.png
+  artifactKey: Guid(78fe9a1a9ebca0440841096ecc32efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/knifeRound_sharp.png using Guid(78fe9a1a9ebca0440841096ecc32efba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf4590678500958fa77d8b6432ce440') in 0.036006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Silhouette/machinegun.png
+  artifactKey: Guid(b65ce10167ded754f97cba4774c9c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Silhouette/machinegun.png using Guid(b65ce10167ded754f97cba4774c9c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0407929f66d064ae4cb819d73073d753') in 0.041477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110956 seconds.
+  path: Assets/Halloween/Weapons/Sprites/Render/knife_sharp.png
+  artifactKey: Guid(f720017159133634796da6681f197ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Weapons/Sprites/Render/knife_sharp.png using Guid(f720017159133634796da6681f197ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2487324212dbb4b0144c04d1a8bc4420') in 0.038294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.962069 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/BlueGlow.mat
+  artifactKey: Guid(f13a1c1a790f97046ab6053e5ebd45eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Solid Colors/BlueGlow.mat using Guid(f13a1c1a790f97046ab6053e5ebd45eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595f1390bdddbfcd21d455312397f299') in 4.394248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.769389 seconds.
+  path: Assets/_Course Library/Materials/Solid Colors/Red.mat
+  artifactKey: Guid(8313b7f851584554aa895abc637c721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Materials/Solid Colors/Red.mat using Guid(8313b7f851584554aa895abc637c721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c000f3475c7e64fc8fb957b5b69a3efe') in 3.742340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 551.049305 seconds.
+  path: Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Base_Color.png
+  artifactKey: Guid(48f4f66d4e15b924e845a15cc353d2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Base_Color.png using Guid(48f4f66d4e15b924e845a15cc353d2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec752e41b96531f2560ec7a191d581b') in 0.041665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Normal.png
+  artifactKey: Guid(fff10447baa86b44aa549f50f310265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Normal.png using Guid(fff10447baa86b44aa549f50f310265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5178dbecc7837db7c60d4a74183a9c9') in 0.037871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Roughness.png
+  artifactKey: Guid(7bd79b1b559c13c4ea25e26930a8d68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Stone Texture/Texture/Stone_Roughness.png using Guid(7bd79b1b559c13c4ea25e26930a8d68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5010c46896b68e5156afe07c2eb7aba5') in 0.030229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 563.208352 seconds.
+  path: Assets/Halloween/Hand Painted Stone Texture/Material/Stone_normal.mat
+  artifactKey: Guid(5f73475cf0cad364b9800b85c2a229fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Hand Painted Stone Texture/Material/Stone_normal.mat using Guid(5f73475cf0cad364b9800b85c2a229fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9dc7d30ec41e051e48f37c033963bc') in 0.106901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.541865 seconds.
+  path: Assets/Halloween/Models/OBJ format/altarWood.obj
+  artifactKey: Guid(9c23ac315294b554fb26f9297491047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/altarWood.obj using Guid(9c23ac315294b554fb26f9297491047a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6804f5428a5092aa878cc1176881695d') in 0.120218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Halloween/Models/OBJ format/candleMultiple.obj
+  artifactKey: Guid(9db4eda572604374fa264f71d1479ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/candleMultiple.obj using Guid(9db4eda572604374fa264f71d1479ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d22d3b4d8856921b8064d21c1993386') in 0.115544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Halloween/Models/OBJ format/brickWallCurveSmall.obj
+  artifactKey: Guid(9365abf7f92771144b9cc2abf03272cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/brickWallCurveSmall.obj using Guid(9365abf7f92771144b9cc2abf03272cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08064953b26fa50e6b64f5a1ba00d80c') in 0.159793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Halloween/Models/OBJ format/characterDigger.obj
+  artifactKey: Guid(6aaa8273f5a38144cbef7d0eb13b32cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/characterDigger.obj using Guid(6aaa8273f5a38144cbef7d0eb13b32cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74008b5c225dcb21796cffbf294408f') in 0.423278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Halloween/Models/OBJ format/borderPillar.obj
+  artifactKey: Guid(00397376f82d1e844b9f01048e807baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/borderPillar.obj using Guid(00397376f82d1e844b9f01048e807baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1434b09b043f181d21186aa9c5cc8fd') in 0.122634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Halloween/Models/OBJ format/candle.obj
+  artifactKey: Guid(45a2937cae125004e871222a7c1992bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/candle.obj using Guid(45a2937cae125004e871222a7c1992bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3f91aab30bf601e0acef234810da8') in 0.119884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.240091 seconds.
+  path: Assets/Halloween/Models/OBJ format/coffin.obj
+  artifactKey: Guid(d8ed2091083ae304a8799b716c2381ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/coffin.obj using Guid(d8ed2091083ae304a8799b716c2381ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c7e1f4f3af46dc3db5e9a7ef7e8dff') in 0.212975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Halloween/Models/OBJ format/coffinOld.obj
+  artifactKey: Guid(593f0d1d1e2de8841a09dcdd0ed18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/coffinOld.obj using Guid(593f0d1d1e2de8841a09dcdd0ed18f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ea32f7a71dd30c92412b19803ff9ac') in 0.133812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.164887 seconds.
+  path: Assets/Halloween/Models/OBJ format/cross.obj
+  artifactKey: Guid(5812fb058beb3474898cfdcba62da016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/cross.obj using Guid(5812fb058beb3474898cfdcba62da016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3cbbffb4ffbadc8a6d34010ad58298') in 0.160400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Halloween/Models/OBJ format/fireBasket.obj
+  artifactKey: Guid(fe32a1091d11f1146a921a36d25ae3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/fireBasket.obj using Guid(fe32a1091d11f1146a921a36d25ae3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b540da8f1afc6c9d9fd66ab3246bae12') in 0.109398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Halloween/Models/OBJ format/graveBorder.obj
+  artifactKey: Guid(6d9f626447fa09042890457c37c426a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/graveBorder.obj using Guid(6d9f626447fa09042890457c37c426a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449e0dbc005d21c9538c295391cd067b') in 0.119509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Halloween/Models/OBJ format/detailBowl.obj
+  artifactKey: Guid(5e7cbe49bf28d554aaec11af3df493fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/detailBowl.obj using Guid(5e7cbe49bf28d554aaec11af3df493fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3935aad0e3a56b0f2050661f826a99') in 0.125976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Halloween/Models/OBJ format/cryptSmallDoorwayAlternative.obj
+  artifactKey: Guid(f18b626bf1235a74ea1c9f6a9758b982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/cryptSmallDoorwayAlternative.obj using Guid(f18b626bf1235a74ea1c9f6a9758b982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e71895d0dfa062d6314a63aff8247e') in 0.111382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Halloween/Models/OBJ format/fenceDamaged.obj
+  artifactKey: Guid(cf8f07eb2483ffa4299f30853314935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/fenceDamaged.obj using Guid(cf8f07eb2483ffa4299f30853314935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ddd6edd5286169637072f168241f36') in 0.149828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Halloween/Models/OBJ format/grave.obj
+  artifactKey: Guid(b0a26f4ad1ea86a48a08f2f76474a512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/grave.obj using Guid(b0a26f4ad1ea86a48a08f2f76474a512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d8a9007d5ff2710a829833f2a82d0c') in 0.111630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Halloween/Models/OBJ format/gravestoneCrossLarge.obj
+  artifactKey: Guid(92535a2634a02c746968fe9adddb5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/gravestoneCrossLarge.obj using Guid(92535a2634a02c746968fe9adddb5c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0649d2b760271830b2c028cb0399cc') in 0.120454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Halloween/Models/OBJ format/gravestoneBroken.obj
+  artifactKey: Guid(6f08f6daa8e7cd54cba42e22850a0c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/gravestoneBroken.obj using Guid(6f08f6daa8e7cd54cba42e22850a0c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5f509eade1ac99c7549a18978a32b0') in 0.108600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Halloween/Models/OBJ format/crypt.obj
+  artifactKey: Guid(afe8a4c2a99c70c40b08aad10f0cdf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/crypt.obj using Guid(afe8a4c2a99c70c40b08aad10f0cdf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a25f22690d524d3a7c6e411db9e2ebf') in 0.106521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Halloween/Models/OBJ format/cryptSmallRoof.obj
+  artifactKey: Guid(47abd7d3162bccd46a1ff946f98241ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/cryptSmallRoof.obj using Guid(47abd7d3162bccd46a1ff946f98241ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73da0479dbc45e291b42c48f9f91cd19') in 0.125569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Halloween/Models/OBJ format/gravestoneDebris.obj
+  artifactKey: Guid(5dfdbab17cd718c408a00fc905d4b98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/gravestoneDebris.obj using Guid(5dfdbab17cd718c408a00fc905d4b98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fdbc4d7c39a6f6b2cf810187fca8fb') in 0.106890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Halloween/Models/OBJ format/gravestoneFlat.obj
+  artifactKey: Guid(13c1e089d0424594780202d05a7b9f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/gravestoneFlat.obj using Guid(13c1e089d0424594780202d05a7b9f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8149317841562a92f9cf87720942737e') in 0.102839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Halloween/Models/OBJ format/gravestoneWide.obj
+  artifactKey: Guid(69a32f96171d19b45af04bccf925fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/gravestoneWide.obj using Guid(69a32f96171d19b45af04bccf925fef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5298a96b9ce471da19b458c85394eb55') in 0.152533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Halloween/Models/OBJ format/ironFenceBorder.obj
+  artifactKey: Guid(a586d82627a810c45979f29a5e059e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/ironFenceBorder.obj using Guid(a586d82627a810c45979f29a5e059e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cb00f5537fff3448b8aebfb0021b34') in 0.137974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Halloween/Models/OBJ format/ironFenceBorderColumn.obj
+  artifactKey: Guid(7b9f4a350bf4b91438339e8e3917785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/ironFenceBorderColumn.obj using Guid(7b9f4a350bf4b91438339e8e3917785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a7e984a0e58ef592d5a87315cd1421') in 0.118990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Halloween/Models/OBJ format/ironFenceCurve.obj
+  artifactKey: Guid(e03879754b2effd4eae1aad91892985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/ironFenceCurve.obj using Guid(e03879754b2effd4eae1aad91892985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f83bb9a212381fbb3ffb42b1fcbb5d') in 0.106800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Halloween/Models/OBJ format/lightpostAll.obj
+  artifactKey: Guid(cff771653babe5646821b579311fd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/lightpostAll.obj using Guid(cff771653babe5646821b579311fd361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97d18e250ba6295c41d15327ce2fa6f') in 0.152893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Halloween/Models/OBJ format/lanternCandle.obj
+  artifactKey: Guid(6572ee1763e6fd24294755f2b3b2587e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/lanternCandle.obj using Guid(6572ee1763e6fd24294755f2b3b2587e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1712f02c8d55d2de243e2387ee95b623') in 0.124881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Halloween/Models/OBJ format/ironFenceBorderGate.obj
+  artifactKey: Guid(2d1f03dc5d9759d47be8cd43ff82588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/ironFenceBorderGate.obj using Guid(2d1f03dc5d9759d47be8cd43ff82588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbf31cd59269c73efaebbdc8a86c25a') in 0.130550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Halloween/Models/OBJ format/detailChalice.obj
+  artifactKey: Guid(4e4cd275ccd1beb45b0575813eb477ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/detailChalice.obj using Guid(4e4cd275ccd1beb45b0575813eb477ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aafc1202a0d6b3bb9da768da9333d50') in 0.124480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Halloween/Models/OBJ format/cryptDoor.obj
+  artifactKey: Guid(c8cbd2cffb80bfa44a786803d8daffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/cryptDoor.obj using Guid(c8cbd2cffb80bfa44a786803d8daffde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f47dc5ab9b2eecc01c444688dcbf34') in 0.123150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Halloween/Models/OBJ format/pillarSmall.obj
+  artifactKey: Guid(2df6d9a42538c12488e9fcc64c036bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/pillarSmall.obj using Guid(2df6d9a42538c12488e9fcc64c036bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e3f57bd398568fdf968032edae32c2') in 0.101704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Halloween/Models/OBJ format/pillarObelisk.obj
+  artifactKey: Guid(955abf3cd97a58043a82eef6ae9632b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/pillarObelisk.obj using Guid(955abf3cd97a58043a82eef6ae9632b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418d63f3eb31495b43a9693376835cc') in 0.101352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Halloween/Models/OBJ format/pumpkin.obj
+  artifactKey: Guid(97dce8de70afc9d4e9b10c3f91cefa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/pumpkin.obj using Guid(97dce8de70afc9d4e9b10c3f91cefa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e246d948d1b731c7fc698c3a86b8aa') in 0.125125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Halloween/Models/OBJ format/pineCrooked.obj
+  artifactKey: Guid(098763c0c12dd0646b4b6d84a5839435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/pineCrooked.obj using Guid(098763c0c12dd0646b4b6d84a5839435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ef6877128c88a5cc0da9a82fb8c437') in 0.153373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Halloween/Models/OBJ format/road.obj
+  artifactKey: Guid(fc5f502d487f36342943629131f2e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/road.obj using Guid(fc5f502d487f36342943629131f2e61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed67a9a8e4890ec0ebe3776b558ceb0') in 0.127830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Halloween/Models/OBJ format/pumpkinTallCarved.obj
+  artifactKey: Guid(e4c1f470fc3c72a4eb6e823f9844d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/pumpkinTallCarved.obj using Guid(e4c1f470fc3c72a4eb6e823f9844d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b5eeedf80afebd6cf53d78caf7a2d8') in 0.157699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Halloween/Models/OBJ format/stoneWall.obj
+  artifactKey: Guid(c390ada6b4065644899aaca1e04cf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/stoneWall.obj using Guid(c390ada6b4065644899aaca1e04cf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbe98af5cf07de1c423f6532fb81556') in 0.128914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Halloween/Models/OBJ format/rocksTall.obj
+  artifactKey: Guid(cd9df407cba13c14e9a7006cec0affa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/rocksTall.obj using Guid(cd9df407cba13c14e9a7006cec0affa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f91b633757c22b37cbf9d5509b187c') in 0.108727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Halloween/Models/OBJ format/stoneWallColumn.obj
+  artifactKey: Guid(99aecee4b3c890242847046e3da512e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/stoneWallColumn.obj using Guid(99aecee4b3c890242847046e3da512e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e93795e5127779f3546f5f4cd7f8768') in 0.130698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Halloween/Models/OBJ format/trunk.obj
+  artifactKey: Guid(0874bdcf5b4bf034ea32404afefc07c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/trunk.obj using Guid(0874bdcf5b4bf034ea32404afefc07c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f4f8063454d08cabcb48066a92bd64') in 0.134643 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000160 seconds.
-  path: Assets/Halloween/Models/FBX format/fireBasket.fbx
-  artifactKey: Guid(0871bbde2d018144bb3ba276ce405da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Halloween/Models/FBX format/fireBasket.fbx using Guid(0871bbde2d018144bb3ba276ce405da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691b1b65e2fdbb4f2fa02b43eec38bad') in 0.089786 seconds 
+  path: Assets/Halloween/Models/OBJ format/trunkLong.obj
+  artifactKey: Guid(1a12fb4cb9121724aaec2a1a5dd0cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/trunkLong.obj using Guid(1a12fb4cb9121724aaec2a1a5dd0cb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe12a42efb234557464850317ebef4f') in 0.132134 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.554159 seconds.
-  path: Assets/Challenges/01_Architecture/Terrain/Terrain_Mountains.asset
-  artifactKey: Guid(37bc5ad63a1654d94bc13b39a8c5f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/01_Architecture/Terrain/Terrain_Mountains.asset using Guid(37bc5ad63a1654d94bc13b39a8c5f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4639ff6f1cc27fcf9548da4b43f053') in 0.050445 seconds 
+  Time since last request: 0.000084 seconds.
+  path: Assets/Halloween/Models/OBJ format/ironFenceBorderCurve.obj
+  artifactKey: Guid(94b30ae2ed2b5904ea04ed225faf48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/OBJ format/ironFenceBorderCurve.obj using Guid(94b30ae2ed2b5904ea04ed225faf48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b04a395712f4c9e229742a87036b6c') in 0.131721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.975977 seconds.
+  path: Assets/Halloween/Models/FBX format/pine.fbx
+  artifactKey: Guid(45bcb6c705ac8484b972a057e7fd5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pine.fbx using Guid(45bcb6c705ac8484b972a057e7fd5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd206344494c86b451d0c83e67c786777') in 0.112114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Halloween/Models/DAE format/pineCrooked.dae
+  artifactKey: Guid(3cbe2fe725480ad4c8d6aeae312525e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/pineCrooked.dae using Guid(3cbe2fe725480ad4c8d6aeae312525e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e512d4dd8bef59a811c6c2e0936e9f') in 0.143196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 204.604859 seconds.
+  path: Assets/Halloween/Models/FBX format/lightpostSingle.fbx
+  artifactKey: Guid(7273ff4d7eb95cc41b56cd9456d7ecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/lightpostSingle.fbx using Guid(7273ff4d7eb95cc41b56cd9456d7ecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf712558f193cbb49a54b8541c25775') in 0.106301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Halloween/Models/FBX format/rocksTall.fbx
+  artifactKey: Guid(c5067d0eaf53c3248a69a24c10f71c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/rocksTall.fbx using Guid(c5067d0eaf53c3248a69a24c10f71c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfbe8af03e2eedd030f96c32e497c19') in 0.077481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Halloween/Models/FBX format/pillarObelisk.fbx
+  artifactKey: Guid(7cde85e47261afc46843261288c45c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pillarObelisk.fbx using Guid(7cde85e47261afc46843261288c45c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ccf44e9081ed7d45f2216ea4b085f5') in 0.095066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Halloween/Models/FBX format/trunk.fbx
+  artifactKey: Guid(5801a07604018e747a5efafda4f4a572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/trunk.fbx using Guid(5801a07604018e747a5efafda4f4a572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40e5bcde3cfcec5448d84989922ba87') in 0.113232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Halloween/Models/FBX format/pumpkinCarved.fbx
+  artifactKey: Guid(4afd5811a02156549885488fcd28cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pumpkinCarved.fbx using Guid(4afd5811a02156549885488fcd28cac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6caee415c7636d4a6ab5d89713dd8a') in 0.128505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Halloween/Models/FBX format/shovelDirt.fbx
+  artifactKey: Guid(5e0cb8fd4c2ff5b479699f9d54a8cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/shovelDirt.fbx using Guid(5e0cb8fd4c2ff5b479699f9d54a8cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca90e70b19b0edfb11ff6a121c9bda15') in 0.112109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Halloween/Models/FBX format/rocks.fbx
+  artifactKey: Guid(5c7d761e1eacde0459005a3fbce917f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/rocks.fbx using Guid(5c7d761e1eacde0459005a3fbce917f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ac52d2099f630e5ca9866c3d026474') in 0.098066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Halloween/Models/FBX format/stoneWallColumn.fbx
+  artifactKey: Guid(93c3f230603f5854cb756f35681dea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/stoneWallColumn.fbx using Guid(93c3f230603f5854cb756f35681dea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704ef3edad053b2420e414013290e542') in 0.120163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Halloween/Models/FBX format/pumpkin.fbx
+  artifactKey: Guid(f62c0bbee30cf3944ad25dc3db4cf9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pumpkin.fbx using Guid(f62c0bbee30cf3944ad25dc3db4cf9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7b6dbad326ef1852727ce4a553e7bb') in 0.106719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Halloween/Models/FBX format/pillarSquare.fbx
+  artifactKey: Guid(a4025734dc6798746a78ce3ba4160e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pillarSquare.fbx using Guid(a4025734dc6798746a78ce3ba4160e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1873fabf72d2b0a81cd713c11f5a80') in 0.095700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Halloween/Models/FBX format/pumpkinTallCarved.fbx
+  artifactKey: Guid(fa88f9d47b285aa408c0bbf6c26fbba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/pumpkinTallCarved.fbx using Guid(fa88f9d47b285aa408c0bbf6c26fbba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ec4fbd489e92fdc991a5d6a734e5b1') in 0.148257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.161817 seconds.
+  path: Assets/Halloween/Models/FBX format/ironFenceBorderColumn.fbx
+  artifactKey: Guid(134a1af6b1b849e4daa8067727e08238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/ironFenceBorderColumn.fbx using Guid(134a1af6b1b849e4daa8067727e08238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5f86a37bd868b9e20c8ad4f5120dc8') in 0.124296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Halloween/Models/FBX format/ironFenceBorderGate.fbx
+  artifactKey: Guid(a4365880105b3604ea8dfe253e4d0cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/ironFenceBorderGate.fbx using Guid(a4365880105b3604ea8dfe253e4d0cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fe5e26edb8a17f9ed4d95490029c10') in 0.134523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Halloween/Models/FBX format/ironFenceCurve.fbx
+  artifactKey: Guid(4ffc84e1f3b9b9843b580dbbba1a6ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/ironFenceCurve.fbx using Guid(4ffc84e1f3b9b9843b580dbbba1a6ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ceadf4a11e4a5e21f53941dfa12a4') in 0.109665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Halloween/Models/FBX format/gravestoneRound.fbx
+  artifactKey: Guid(5cb5e5ab5ac85ed4a8f7307973263704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/gravestoneRound.fbx using Guid(5cb5e5ab5ac85ed4a8f7307973263704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8e0530e07038bc8c6a98960b1f03b2') in 0.104011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Halloween/Models/FBX format/lanternGlass.fbx
+  artifactKey: Guid(1ac787f7beee79c4589906cef3430d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/lanternGlass.fbx using Guid(1ac787f7beee79c4589906cef3430d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cd633f05a7e8b9a6f8c39be795632a') in 0.106903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Halloween/Models/FBX format/ironFence.fbx
+  artifactKey: Guid(c7988f13558955b49828f8d5abc9a548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/ironFence.fbx using Guid(c7988f13558955b49828f8d5abc9a548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1aff24affa601aab2bc88507ac7c4d') in 0.078090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Halloween/Models/FBX format/lanternCandle.fbx
+  artifactKey: Guid(c1e9c608a82aed549866c6607b468b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/lanternCandle.fbx using Guid(c1e9c608a82aed549866c6607b468b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59840a50c3452d6ffba83c88c9897aa6') in 0.085838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Halloween/Models/FBX format/gravestoneFlatOpen.fbx
+  artifactKey: Guid(18608af34429b124f95857e402e19bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/FBX format/gravestoneFlatOpen.fbx using Guid(18608af34429b124f95857e402e19bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c437f863998b2442ca9f22f2e84d4567') in 0.179414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.538802 seconds.
+  path: Assets/Halloween/Models/DAE format/detailPlate.dae
+  artifactKey: Guid(e4b7eb143384f994faaccfc230d16e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/detailPlate.dae using Guid(e4b7eb143384f994faaccfc230d16e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7f0b6ea152551bc70d41960366d24') in 0.088602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Halloween/Models/DAE format/fenceDamaged.dae
+  artifactKey: Guid(4a37dc2a1db18764883def5515d0efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/fenceDamaged.dae using Guid(4a37dc2a1db18764883def5515d0efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29867a3786e5b7829082984760f48cf') in 0.206840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Halloween/Models/DAE format/ironFenceBar.dae
+  artifactKey: Guid(a98620840728a7645a792d89cf7854d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/ironFenceBar.dae using Guid(a98620840728a7645a792d89cf7854d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3af433b00dff77268568965946833') in 0.112702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneFlatOpen.dae
+  artifactKey: Guid(03eb8fe5bef4a054e8131f064f64afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneFlatOpen.dae using Guid(03eb8fe5bef4a054e8131f064f64afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a85da70e2d7c44a24ba17fcb4a117a8') in 0.177523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Halloween/Models/DAE format/lightpostSingle.dae
+  artifactKey: Guid(26af160ec4d499b409b8327591e7b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/lightpostSingle.dae using Guid(26af160ec4d499b409b8327591e7b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0dd43effe154862202252811fb6021') in 0.143285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Halloween/Models/DAE format/ironFenceBorderColumn.dae
+  artifactKey: Guid(879fefc196b9cc540b2a3936bc827291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/ironFenceBorderColumn.dae using Guid(879fefc196b9cc540b2a3936bc827291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4881e98102b8839e7697d78b9b46c6') in 0.138414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Halloween/Models/DAE format/pillarObelisk.dae
+  artifactKey: Guid(7c9f703c50b80b0479415420458c3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/pillarObelisk.dae using Guid(7c9f703c50b80b0479415420458c3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfccee19820d74308ed0bdc26961969d') in 0.101638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneRound.dae
+  artifactKey: Guid(aecf98d02cbe9074c8bc9aa870fff013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneRound.dae using Guid(aecf98d02cbe9074c8bc9aa870fff013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55426d98e6716cb112343b70de430b0f') in 0.115037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneBevel.dae
+  artifactKey: Guid(c1c728e20bb82444f8171de8adde6541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneBevel.dae using Guid(c1c728e20bb82444f8171de8adde6541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b4722ab9be33e71e04aee78c9ee763') in 0.100772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Halloween/Models/DAE format/ironFenceBorder.dae
+  artifactKey: Guid(b4b994d71ff85f041ae2a9ffe507c5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/ironFenceBorder.dae using Guid(b4b994d71ff85f041ae2a9ffe507c5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ac814f185fc06218ca48de23b2691a') in 0.118839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneCrossLarge.dae
+  artifactKey: Guid(69917138812f70846961d90d22201b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneCrossLarge.dae using Guid(69917138812f70846961d90d22201b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877718310b4d8df9e7faab3d6c3c3d4b') in 0.105001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneDebris.dae
+  artifactKey: Guid(6bbd8312743521148bd4d3f5ccdfee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneDebris.dae using Guid(6bbd8312743521148bd4d3f5ccdfee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf13eb0d0a9179eecaff57d378ab09e') in 0.120983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneBroken.dae
+  artifactKey: Guid(8c16cef046dcbd64bb85367a2726594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneBroken.dae using Guid(8c16cef046dcbd64bb85367a2726594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de195309a53d151f0fccd10c8a117e7b') in 0.098103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Halloween/Models/DAE format/lightpostDouble.dae
+  artifactKey: Guid(2980c3e3ec40ada4187589357d863d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/lightpostDouble.dae using Guid(2980c3e3ec40ada4187589357d863d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b018575335f67b4c3765a66c4a9cd') in 0.138181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Halloween/Models/DAE format/fenceGate.dae
+  artifactKey: Guid(217cc745df8b9884f863cb739a1c88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/fenceGate.dae using Guid(217cc745df8b9884f863cb739a1c88e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60089a231bdc7b56c79f78be0b8b0c57') in 0.196332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Halloween/Models/DAE format/pillarSquare.dae
+  artifactKey: Guid(b90db428c3c8e8e4bbfe36c1d8e7e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/pillarSquare.dae using Guid(b90db428c3c8e8e4bbfe36c1d8e7e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbe379974fcd65b3e82e4f70a99514e') in 0.108643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Halloween/Models/DAE format/gravestoneWide.dae
+  artifactKey: Guid(c401765cfe3a08e458ff10efe67b62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Halloween/Models/DAE format/gravestoneWide.dae using Guid(c401765cfe3a08e458ff10efe67b62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab73ba8640de8a27c5013c2892fec46') in 0.134501 seconds 
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

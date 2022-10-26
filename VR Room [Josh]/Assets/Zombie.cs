@@ -19,7 +19,18 @@ public class Zombie : MonoBehaviour
         //..
     } 
 
-   
+    public void Death()
+    {
+        ActivateRagdoll();
+    }
+
+    void ActivateRagdoll()
+    {
+        foreach (var item in rbs)
+        {
+            item.isKinematic = false;
+        }
+    }
 
     void DisactivateRagdoll()
     {

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4371
+  controlID: 9141
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 4372
+  controlID: 9142
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 4373
+  controlID: 9143
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 440
     height: 586
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -228,21 +228,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c285feff428cfeffa02fffffcc2fffffd02fffffd42ffffffc2fffff4c30ffff8438ffff0c50ffff5c50ffff5652ffff84280100f02801002e29010056290100b82c01000c2d01001a2d0100c6310100c831010002430100
+      m_ExpandedIDs: c285feff428cfeffa02fffffcc2fffffd02fffffd42ffffffc2fffff4c30ffff8438ffff0c50ffff5c50ffff5652ffff84280100f02801002e29010056290100b82c01000c2d01001a2d0100c6310100c831010032420100a0420100ec42010002430100ce430100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: pistol
+        m_OriginalName: pistol
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 82744
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.336417, y: 1.2751194, z: -0.0787909}
+    m_Target: {x: 0.4925629, y: -0.226901, z: 0.1470477}
     speed: 2
-    m_Value: {x: 1.336417, y: 1.2751194, z: -0.0787909}
+    m_Value: {x: 0.4925629, y: -0.226901, z: 0.1470477}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,9 +558,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0.973249, z: -0.22975294, w: 0}
   m_Size:
-    m_Target: 2.0549507
+    m_Target: 1.8351117
     speed: 2
-    m_Value: 2.0549507
+    m_Value: 1.8351117
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,22 +654,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Halloween/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Halloween/Scripts
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\A00286199\Documents\ca-joshbxtr-1\VR Room [Josh]
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a280100
-    m_LastClickedID: 75802
-    m_ExpandedIDs: 000000001028010000ca9a3b
+    m_SelectedIDs: 5c2a0100
+    m_LastClickedID: 76380
+    m_ExpandedIDs: 0000000010280100162801005e2a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001028010000ca9a3b
+    m_ExpandedIDs: 00000000102801005e2a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,9 +722,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 48430100
-    m_LastClickedInstanceID: 82760
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 86420100
+    m_LastClickedInstanceID: 82566
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000047a0000f889000042710000c0700000c670000000000000b4850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_CachedPref: 151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 82760
+  m_LastInspectedObjectInstanceID: 82566
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

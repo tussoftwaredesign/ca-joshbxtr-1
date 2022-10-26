@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 10463
+  controlID: 10743
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 10464
+  controlID: 10744
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 10465
+  controlID: 10745
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7085feffc285feff428cfeffa02fffffcc2fffffd02fffffd42ffffffc2fffff4c30ffff8438ffff0c50ffff5c50ffff5652ffff84280100f02801002e29010056290100b82c01000c2d01001a2d0100c6310100c831010032420100a0420100ec42010002430100
+      m_ExpandedIDs: 3895feff4897feff929efeffeaa1feff6e14ffff544dffff804dffff844dffff884dffffbc4fffff3e52ffffea280100c4290100442a0100522a0100602a0100622a01007a2a01008eb501009cb50100f2bd01007cbe010094be010096be010098be01009abe0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Zombie
@@ -239,7 +239,7 @@ MonoBehaviour:
           y: 0
           width: 0
           height: 0
-        m_UserData: -96902
+        m_UserData: -92872
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.3176827, y: -1.9374082, z: -6.7097025}
+    m_Target: {x: 0.09660277, y: -0.77400804, z: -6.9149203}
     speed: 2
-    m_Value: {x: 6.3176827, y: -1.9374082, z: -6.7097025}
+    m_Value: {x: 0.09660277, y: -0.77400804, z: -6.9149203}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,9 +558,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0.973249, z: -0.22975294, w: 0}
   m_Size:
-    m_Target: 4.3434505
+    m_Target: 5.8271294
     speed: 2
-    m_Value: 4.3434505
+    m_Value: 5.8271294
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,22 +654,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Halloween/Hand Painted Stone Texture
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
-  - Assets/Halloween/Hand Painted Stone Texture
+  - Assets
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\A00286199\Documents\ca-joshbxtr-1\VR Room [Josh]
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 68}
-    m_SelectedIDs: 522a0100
-    m_LastClickedID: 76370
-    m_ExpandedIDs: 00000000102801001628010000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a280100
+    m_LastClickedID: 75786
+    m_ExpandedIDs: 000000000a2801005e28010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000102801005e2a010000ca9a3b
+    m_ExpandedIDs: 000000000a28010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

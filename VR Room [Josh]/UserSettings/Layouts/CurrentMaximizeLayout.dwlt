@@ -24,7 +24,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 10743
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +146,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 43
+=======
+  controlID: 10744
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +175,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 44
+=======
+  controlID: 10745
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +240,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 32fbffff767100007a71000084720000
+=======
+      m_ExpandedIDs: 3895feff4897feff929efeffeaa1feff6e14ffff544dffff804dffff844dffff884dffffbc4fffff3e52ffffea280100c4290100442a0100522a0100602a0100622a01007a2a01008eb501009cb50100f2bd01007cbe010094be010096be010098be01009abe0100
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Barrel
@@ -239,7 +255,11 @@ MonoBehaviour:
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 28634
+=======
+        m_UserData: -92872
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -505,9 +525,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 5.238852, y: 0.71745586, z: -8.037139}
     speed: 2
     m_Value: {x: 5.238852, y: 0.71745586, z: -8.037139}
+=======
+    m_Target: {x: 0.09660277, y: -0.77400804, z: -6.9149203}
+    speed: 2
+    m_Value: {x: 0.09660277, y: -0.77400804, z: -6.9149203}
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,9 +584,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0.973249, z: -0.22975294, w: 0}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1.0967929
     speed: 2
     m_Value: 1.0967929
+=======
+    m_Target: 5.8271294
+    speed: 2
+    m_Value: 5.8271294
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,22 +686,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Halloween/Prefabs
+=======
+    - Assets
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Halloween/Prefabs
+=======
+  - Assets
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\jbax8\Documents\GitHub\ca-joshbxtr-1\VR Room [Josh]
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 156.33334}
     m_SelectedIDs: 2a770000
     m_LastClickedID: 30506
     m_ExpandedIDs: 00000000687500006a7500006c7500006e75000070750000727500007475000076750000787500001c770000
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a280100
+    m_LastClickedID: 75786
+    m_ExpandedIDs: 000000000a2801005e28010000ca9a3b
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +744,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000687500006a7500006c7500006e7500007075000072750000747500007675000078750000
+=======
+    m_ExpandedIDs: 000000000a28010000ca9a3bffffff7f
+>>>>>>> eaf4bbd5db17d12ff8b1dba33f3b635f0c0a00b4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

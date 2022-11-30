@@ -11,6 +11,8 @@ public class ZombieRag : MonoBehaviour
     public Rigidbody rb;
     public NavMeshAgent nav;
     public EnemyFollow follow;
+    public AudioSource audio;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +27,6 @@ public class ZombieRag : MonoBehaviour
         {
             ragdollOn();
             Debug.Log("Ragdoll On");
-       
-      
         }
     }
 
@@ -50,6 +50,7 @@ public class ZombieRag : MonoBehaviour
             rigid.isKinematic = false;
         }
 
+        audio.enabled = false;
         follow.enabled = false;
         nav.enabled = false;
         mainCollider.enabled = false;
